@@ -1,0 +1,64 @@
+@mixin reset-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@mixin nav-list {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $gray-blue;
+}
+
+@mixin link-box {
+    width: 200px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: $darkblue;
+    margin-top: 53px;
+}
+
+@mixin box-img {
+    width: 16px;
+    height: 12px;
+    margin: 16px 18px;
+}
+
+@mixin box-text {
+    margin: 17px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    // color: $oq;  
+}
+
+@mixin portfolio-box {
+    width: 202px;
+    height: 48px;
+    border: 1px solid $gray-blue;
+}
+
+@mixin portfolio-box__text {
+    margin: 17px 36px 17px 32px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}

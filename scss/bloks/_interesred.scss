@@ -1,0 +1,188 @@
+.interested {
+    margin-top: 168px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.interested__container {
+    margin-top: 168px;
+}
+
+.interested__text {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.interested__border {
+        width: 534px;
+        height: 1px;
+        background: #33323D;
+        mix-blend-mode: normal;
+        opacity: 0.15;
+        margin-left: 32px;
+        margin-right: 32px;
+}
+
+.contact-box {
+    display: flex;
+    width: 162px;
+    height: 48px;
+    border: 1px solid #33323D;
+    
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.contact-box__text {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+@media only screen and (max-width: $tablet) {
+    .interested {
+            margin-top: 168px;
+            display: flex;
+            align-items: center;
+    
+        }
+    
+        .interested__container {
+            margin-top: 168px;
+        }
+    
+        .interested__text {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* or 105% */
+        
+            letter-spacing: -0.357143px;
+        
+            color: #33323D;
+        }
+    
+        .interested__border {
+            width: 113px;
+            height: 1px;
+            background: #33323D;
+            mix-blend-mode: normal;
+            opacity: 0.15;
+            margin-left: 32px;
+            margin-right: 32px;
+        }
+    
+        .contact-box {
+            display: flex;
+            width: 162px;
+            height: 48px;
+            border: 1px solid #33323D;
+    
+            text-align: center;
+            vertical-align: middle;
+            align-items: center;
+        }
+    
+        .contact-box__text {
+            margin: 0;
+            margin-right: auto;
+            margin-left: auto;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+    
+            color: #33323D;
+        }
+}
+
+@media only screen and (max-width: $mobile) {
+    .interested {
+            margin-top: 168px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+    
+        }
+    
+        .interested__container {
+            margin-top: 168px;
+        }
+    
+        .interested__text {
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* or 105% */
+    
+            letter-spacing: -0.357143px;
+    
+            color: #33323D;
+        }
+    
+        .interested__border {
+            display: none;
+            width: 113px;
+            height: 1px;
+            background: #33323D;
+            mix-blend-mode: normal;
+            opacity: 0.15;
+            margin-left: 32px;
+            margin-right: 32px;
+        }
+    
+        .contact-box {
+            display: flex;
+            width: 162px;
+            height: 48px;
+            border: 1px solid #33323D;
+    
+            text-align: center;
+            vertical-align: middle;
+            align-items: center;
+        }
+    
+        .contact-box__text {
+            margin: 0;
+            margin-right: auto;
+            margin-left: auto;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+    
+            color: #33323D;
+        }
+}

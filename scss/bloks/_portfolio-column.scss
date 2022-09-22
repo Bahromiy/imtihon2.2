@@ -1,0 +1,426 @@
+.portfolio__column-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center  ;
+    
+}
+
+.column__list-item {
+    width: 1015px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+.column__list-item:nth-child(2n) {
+    flex-direction: row-reverse;
+
+}
+
+.img__wrapper {
+    z-index: 4;
+}
+
+.list-1 {
+    background-color: #FFEFEC;
+    // background-image: url(../../img/Porto1.png);
+    // background-size: cover;
+    width: 540px;
+    height: 500px;
+        z-index: 2;
+        margin: 0;
+}
+
+.list-2 {
+    background-color: #4F63D8;
+    width: 540px;
+        height: 500px;
+        z-index: 2;
+        margin: 0;
+}
+
+.list-3 {
+    background-color: #9A99AB;
+    width: 540px;
+        height: 500px;
+        z-index: 2;
+        margin: 0;
+}
+
+.list-4 {
+    background-color: #41B4D3;
+    width: 540px;
+        height: 500px;
+        z-index: 2;
+        margin: 0;
+}
+
+.portfolio-img {
+
+}
+
+.content-wrapper--up {
+    margin-left: 125px;
+    margin-top: 0;
+    // padding: 103px 0 103px 0;
+}
+
+.content-wrapper--down {
+    margin-right: 125px;
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.border-up {
+    width: 350px;
+    height: 1px;
+    color: $gray-blue;
+    margin-bottom: 103px;
+   
+
+}
+.border-down {
+    width: 350px;
+    height: 1px;
+    color: $gray-blue;
+   
+
+}
+
+// .text-wrapper {
+//     margin-top: 103px;
+//     margin-bottom: 103px;
+// }
+
+.title {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+    margin-top: 103px;
+    margin-bottom: 28px;
+}
+
+.description {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.view-project {
+    margin-bottom: 160px;
+    @include portfolio-box;
+    
+}
+
+.view-project__text {
+    @include portfolio-box__text;
+}
+
+@media only screen and (max-width: $tablet) {
+    .portfolio__column-wrapper {
+            display: flex;
+            flex-direction: column;
+
+    
+        }
+    
+        .column__list-item {
+            width: 689px;
+            height: 415px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0;
+            margin-bottom: 80px;
+        }
+    
+        .column__list-item:nth-child(2n) {
+            flex-direction: row-reverse;
+    
+        }
+    
+        .img__wrapper {
+            width: 500px;
+            height: 500px;
+        }
+        
+        
+        .list-1 {
+            background-color: #FFEFEC;
+            // background-image: url(../../img/Porto1.png);
+            width: 339px;
+            height: 314px;
+            z-index: 2;
+                margin: 0;
+        }
+    
+        .list-2 {
+            background-color: #4F63D8;
+            width: 339px;
+                height: 314px;
+                z-index: 2;
+                margin: 0;
+        }
+    
+        .list-3 {
+            background-color: #9A99AB;
+            width: 339px;
+                height: 314px;
+                z-index: 2;
+                margin: 0;
+        }
+    
+        .list-4 {
+            background-color: #41B4D3;
+            width: 339px;
+                height: 314px;
+                z-index: 2;
+                margin: 0;
+        }
+    
+        .portfolio-img {
+            width: 320px;
+            height: 314px;
+        }
+    
+        .content-wrapper--up {
+            margin-left: 69px;
+            margin-top: 0;
+            // padding: 103px 0 103px 0;
+        }
+    
+        .content-wrapper--down {
+            margin-right: 69px;
+            margin-left: 0;
+            margin-top: 0px;
+        }
+    
+        .border-up {
+            width: 350px;
+            height: 1px;
+            color: $gray-blue;
+            margin-bottom: 103px;
+    
+    
+        }
+    
+        .border-down {
+            width: 350px;
+            height: 1px;
+            color: $gray-blue;
+    
+    
+        }
+    
+        // .text-wrapper {
+        //     margin-top: 103px;
+        //     margin-bottom: 103px;
+        // }
+    
+        .title {
+            font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+            
+                letter-spacing: -0.357143px;
+            
+                color: #33323D;
+        }
+    
+        .description {
+            font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                /* or 200% */
+            
+            
+                color: #33323D;
+            
+                mix-blend-mode: normal;
+                opacity: 0.8;
+        }
+    
+        .view-project {
+            margin-bottom: 160px;
+            @include portfolio-box;
+    
+        }
+    
+        .view-project__text {
+            @include portfolio-box__text;
+        }
+}
+
+@media only screen and (max-width: $mobile) {
+    .portfolio__column-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column__list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    
+        .column__list-item {
+            width: 311px;
+            height: 288px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 0;
+            margin-bottom: 400px;
+            margin-top: 280px;
+        }
+    
+        .column__list-item:nth-child(2n) {
+            
+            flex-direction: row;
+    
+        }
+    
+        .img__wrapper {
+            width: 311px;
+            height: 288px;
+        }
+    
+    
+        .list-1 {
+            background-color: #FFEFEC;
+            // background-image: url(../../img/Porto1.png);
+            width: 311px;
+            height: 288px;
+            z-index: 2;
+            margin: 0;
+        }
+    
+        .list-2 {
+            background-color: #4F63D8;
+            width: 339px;
+            height: 314px;
+            z-index: 2;
+            margin: 0;
+        }
+    
+        .list-3 {
+            background-color: #9A99AB;
+            width: 339px;
+            height: 314px;
+            z-index: 2;
+            margin: 0;
+        }
+    
+        .list-4 {
+            background-color: #41B4D3;
+            width: 339px;
+            height: 314px;
+            z-index: 2;
+            margin: 0;
+        }
+    
+        .portfolio-img {
+            width: 311px;
+            height: 288px;
+        }
+    
+        .content-wrapper--up {
+            margin-left: 0px;
+            margin-top: 0;
+            // padding: 103px 0 103px 0;
+        }
+    
+        .content-wrapper--down {
+            margin-right: 0px;
+            margin-left: 0;
+            margin-top: 0px;
+        }
+    
+        .border-up {
+            width: 350px;
+            height: 1px;
+            color: $gray-blue;
+            margin-bottom: 103px;
+    
+    
+        }
+    
+        .border-down {
+            width: 350px;
+            height: 1px;
+            color: $gray-blue;
+    
+    
+        }
+    
+        // .text-wrapper {
+        //     margin-top: 103px;
+        //     margin-bottom: 103px;
+        // }
+    
+        .title {
+        font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+        
+            letter-spacing: -0.357143px;
+        
+            color: #33323D;
+        }
+    
+        .description {
+            font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                /* or 200% */
+            
+            
+                color: #33323D;
+            
+                mix-blend-mode: normal;
+                opacity: 0.8;
+        }
+    
+        .view-project {
+            margin-bottom: 160px;
+            @include portfolio-box;
+    
+        }
+    
+        .view-project__text {
+            @include portfolio-box__text;
+        }
+    }
+    
