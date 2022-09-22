@@ -513,6 +513,14 @@ body {
   position: relative;
 }
 
+.about-img {
+  width: 1012px;
+  height: 600px;
+  margin-bottom: 45px;
+  background-image: url(../../img/about-me.png);
+  background-repeat: no-repeat;
+}
+
 .about__title {
   font-family: "Ibarra Real Nova";
   font-style: normal;
@@ -573,12 +581,16 @@ body {
     height: 600;
     margin: 0;
   }
-  .about__img {
-    width: 281px;
+  .about-img {
+    width: 899px;
     height: 600px;
+    margin-bottom: 45px;
+    background-image: url(../../img/about-me.png);
+    background-repeat: no-repeat;
+    background-position: center center;
   }
   .about__wrapper {
-    margin-left: auto;
+    margin-left: 69px;
     width: 350px;
     height: 502px;
     position: relative;
@@ -635,21 +647,25 @@ body {
   }
   .about__container {
     display: flex;
-    width: 689px;
+    width: 311px;
     height: 600;
     margin: 0;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .about__img {
-    width: 311px;
+  .about-img {
+    width: 300px;
     height: 346px;
     margin-bottom: 45px;
+    background-image: url(../../img/about-me.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 390px 583px;
   }
   .about__wrapper {
     margin-left: auto;
-    width: 350px;
+    width: 311px;
     height: 502px;
     position: relative;
   }
